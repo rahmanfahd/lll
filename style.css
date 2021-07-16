@@ -52,8 +52,11 @@ li a {
     border-radius: 10%;
  }
 .main, .icons {
-    font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif; */
+    font-family: Proxima-Light;
+    font: 16px;
+    font-weight: 600;
 }
 .box {
     /* margin-top: 60px;
@@ -77,12 +80,14 @@ h2 {
     padding: 16px 0px;
     font-size: 38px;
     /* font-family: Proxima Nova Semibold; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
     /* font-weight: bolder; */
     color: #222;
     line-height: 31px;
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 0px;
 }
 /* .para {
     font-family: 'Roboto', sans-serif;
@@ -96,9 +101,10 @@ h2 {
     /* font-family: Proxima Nova; */
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Lato', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
     font-size: 16px;
-    color: #444 !important;
+    color: rgba(68, 68, 68, 1);
     line-height: 30px;
     text-align: justify;
     text-justify: inter-word;
@@ -133,17 +139,18 @@ h2 {
     margin: 18px 0px 12px 13px;
     /* justify-content: center; */
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
     /* font-weight: bold; */
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     /* line-height: 29px; */
     text-align: left;
 }
 .design {
     /* margin-left: 40px; 
     margin-right: 30px; */
-    margin: 20px 30px 20px 60px;
+    margin: 10px 30px 20px 60px;
 }
 .menudes {
     font-size: 16px;
@@ -153,7 +160,8 @@ h2 {
     /* margin-left: 5px; */
     /* padding-top: 10px; */
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
     color: #444 !important;
     text-align: justify;
     font-weight: 100;
@@ -202,8 +210,9 @@ h2 {
     margin-bottom: 15px;
     /* justify-self: left; */
     /* font-family: 'Lato', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
+    font-weight: 400;
 }
 .point > li > a{
     padding: 14px;
@@ -235,6 +244,7 @@ h2 {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
+
 .block {
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgb(163 172 192 / 40%);
@@ -251,6 +261,7 @@ h3 {
     font-family: Proxima Nova Semibold;
 
 }
+
 #horizon img {
     width: 30%;
     height: 120px;
@@ -295,7 +306,8 @@ h4 {
     display: flex;
     flex-direction: row;
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: Proxima-Light;
     color: grey;
     font-weight: 200;
 }
@@ -317,19 +329,28 @@ h4 {
     display: inline;
     padding: 0px 20px;
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
 }
 .titl {
     display: inline-block;
     font-weight: 500;
     padding-bottom: 18px;
-    font: normal;
+    font-style: normal;
+    font-weight: bold;
+    color: #444444;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Proxima-Light;
 }
 .mains {
     background: linear-gradient(0deg, rgba(7, 141, 207, 0.1) 8.44%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #FBFBFB, #FBFBFB), #FAFAFB;
 }
 body {
     margin: 0px 0px;
+}
+@font-face {
+    font-family: Proxima-Light;
+    /* font-weight: bold; */
+    src: url("./Proxima-Nova/Proxima\ Nova\ Regular.otf") format("opentype");
 }
